@@ -12,28 +12,26 @@ package CONSTRUCTORES;
 public class Animal {
     String nombre;
     String especie;
-    String color;
-    String tipo_pelaje;
-    boolean carnivoro;
+   boolean carnivoro;
+
+    public Animal(String nombre, String especie, boolean carnivoro) {
+        this.nombre = nombre;
+        this.especie = especie;
+        this.carnivoro = carnivoro;
+    }
+
+    public Animal(String nombre, String especie) {
+        this.nombre = nombre;
+        this.especie = especie;
+    }
+
+    public Animal(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Animal() {
+    }
     
-    public Animal(String nombre){
-    nombre=nombre;
-    int x=2;
-          } 
-    public Animal (boolean algo){
-        carnivoro=algo;
-    }
-    public Animal (String va1, String va2, String va3){
-        nombre=va1;
-       especie=va2;
-       color=va3; 
-    }
-    public Animal (String valor1, String valor2){
-        especie=valor1;
-        nombre=valor2;
-    
-    }
-    public Animal(){
-        nombre="Leon";
-}
+      
+
 }   
