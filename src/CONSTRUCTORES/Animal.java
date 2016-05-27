@@ -12,6 +12,7 @@ package CONSTRUCTORES;
 public class Animal {
     String nombre;
     String especie;
+
    boolean carnivoro;
 
     public Animal(String nombre, String especie, boolean carnivoro) {
@@ -33,5 +34,4 @@ public class Animal {
     }
     
       
-
-}   
+}
