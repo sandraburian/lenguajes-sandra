@@ -100,7 +100,7 @@ public class VentanaUsuario extends javax.swing.JFrame {
         OperacionesUsuarios o=new OperacionesUsuarios();
            etiquetaResultado.setText("tu edad en dias es"+ o.calcularEdadEnDias(u1));
     }//GEN-LAST:event_CalcularActionPerformed
-
+//hola
     /**
      * @param args the command line arguments
      */
