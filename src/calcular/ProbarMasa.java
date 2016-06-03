@@ -3,24 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package metodos;
+package calcular;
 
 /**
  *
- * @author T-107
+ * @author Sandra Burian
  */
-public class ProbarUsuario {
+public class ProbarMasa {
+    
     public static void main(String[] args) {
         //creamos un objeto con el constructor de defecto de la clase de usuario
-        Usuario u1=new Usuario();
-        u1.setEdad(19);
-        
+        Masa m1=new Masa();
+        m1.setPeso(0);
+        m1.setAltura(0);
+        m1.setMasa(0);
 
         //creamos un objeto de la clase logica
-        OperacionesUsuarios o=new OperacionesUsuarios();
-            System.out.println("tu edad en dias es"+ o.calcularEdadEnDias(u1));
+        OperacionMasa m=new OperacionMasa();
+            System.out.println("tu masa corporal es"+ m.calcularMasaCorporal(m1));
 
        
         }
-    }
-
+    
+    
+    
+}
