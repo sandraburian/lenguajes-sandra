@@ -10,6 +10,9 @@ package arreglos1;
  * @author T-107
  */
 public class PrimerArreglo {
+    public static void main(String[] args) {
+        
+    
     //reglas de los arreglos en java
     //1. todos los arreglos son tratados como objetos
     String []mensaje={"hola","como","estas"};
@@ -22,4 +25,5 @@ public class PrimerArreglo {
     
     String []mensaje4=new String[]{"hola4","como4","estas4"};
     
+}
 }
