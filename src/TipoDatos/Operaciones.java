@@ -13,7 +13,7 @@ public class Operaciones {
     
         public String suma(float x, float y){
         String resultado = x+y+"resultado de la suma entera";
-    return resutaldo;
+    return resultado;
     }
     
 }
