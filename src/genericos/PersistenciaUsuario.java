@@ -31,5 +31,8 @@ usuarios=new ArrayList<>();
                   usuarios.add(u);
                   oos.writeObject(usuarios);
     }
+    
+    
+    //empieza el metodo de leer a los usuarios guardados
 }
 
