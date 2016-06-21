@@ -22,6 +22,7 @@ usuarios=new ArrayList<>();
     public void  guardar(Usuario u) throws Exception{
         //paso1 generar el archivo a guardarse
         File f=new File("archivaldo.raton");
+        if(f.exists()) usuarios= buscarTodos();
         //indicar que se va a guardar
         FileOutputStream fos=new FileOutputStream(f);
         
@@ -34,5 +35,15 @@ usuarios=new ArrayList<>();
     
     
     //empieza el metodo de leer a los usuarios guardados
+    public ArrayList<Usuario> buscarTodos()throws Exception{
+        File f=new File("archivaldo.raton");
+        
+        FileInputStream fis=new FileInputStream(f);
+        ObjectInputStream ois=new ObjectInputStream(fis);
+        usuarios= (ArrayList<Usuario>)ois.readObject();
+        return usuarios;
+    }
+    
+    
 }
 

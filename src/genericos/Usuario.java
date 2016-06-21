@@ -16,6 +16,10 @@ public class Usuario implements Serializable {
     String nombre;
     Integer edad;
     String email;
+
+    Usuario(Usuario usuario) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     
@@ -33,6 +37,10 @@ public class Usuario implements Serializable {
         this.nombre = nombre;
         this.edad = edad;
         this.email = email;
+    }
+
+    boolean getNombre() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
