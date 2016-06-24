@@ -12,7 +12,7 @@ package genericos;
 public class ProbarGuardado {
     
     public static void main(String[] args) {
-        Usuario u=new Usuario("juan",20,"juan@gmail.com");
+        Usuario u=new Usuario("sandra",20,"Sandra@gmail.com");
         PersistenciaUsuario p=new PersistenciaUsuario();
         try{
         p.guardar(u);
